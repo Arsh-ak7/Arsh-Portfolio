@@ -41,12 +41,12 @@ export default function ContactMe() {
 					<p>
 						<span className='contact-heads'>Website: </span>{' '}
 						<a
-							href='https://arsh-ak7.github.io/ArshKumar/index.html'
+							href='https://arsh-website.web.app/'
 							target='_blank'
 							rel='noreferrer'
 							className='info-details'
 						>
-							https://arsh-ak7.github.io/ArshKumar/index.html
+							https://arsh-website.web.app/
 						</a>
 					</p>
 				</div>
