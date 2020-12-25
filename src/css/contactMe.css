@@ -1,0 +1,82 @@
+.contactMe {
+	background: linear-gradient(
+		to right,
+		rgba(248, 248, 251),
+		rgba(252, 253, 255)
+	);
+	scrollbar-width: none;
+	width: 100%;
+	height: 100vh;
+}
+
+.contact-desc {
+	position: absolute;
+	margin-top: 150px;
+	width: 100%;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 150px;
+}
+
+.contact-heading {
+	font-family: 'Cinzel', serif;
+	font-size: 1.6rem;
+}
+
+.contact-info {
+	display: flex;
+	padding: 20px;
+}
+
+.contact-heads {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 1.4rem;
+}
+
+.info-details {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.4rem;
+	text-decoration: none;
+	color: black;
+}
+
+.footer {
+	top: 70%;
+	height: 30%;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	background-color: black;
+}
+
+.footer-desc {
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.footer-desc-info {
+	display: flex;
+	font-size: 1.2rem;
+	padding: 5px;
+	align-items: center;
+}
+
+.icon-group {
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+
+.icons {
+	padding: 4px;
+	color: white;
+	display: flex;
+}

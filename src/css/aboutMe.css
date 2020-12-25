@@ -1,0 +1,128 @@
+.aboutMe {
+	scroll-behavior: smooth;
+	display: flex;
+	justify-content: space-evenly;
+	overflow: scroll;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background: linear-gradient(
+		to right,
+		rgba(248, 248, 251),
+		rgba(252, 253, 255)
+	);
+	scrollbar-width: none;
+}
+
+.desc {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-imag-conatiner {
+	display: flex;
+	justify-content: center;
+}
+
+.hero-image {
+	height: 300px;
+	width: 300px;
+	object-fit: contain;
+}
+
+.name-heading {
+	font-family: 'Cinzel', serif;
+}
+
+.small-desc {
+	font-size: large;
+	font-family: 'Cormorant Garamond', serif;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.quotes {
+	width: 60%;
+	text-align: center;
+}
+
+.quote {
+	padding: 20px 0px;
+}
+
+.edu {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.edu-name-heading {
+	font-family: 'Cinzel', serif;
+	padding-bottom: 10px;
+}
+
+.info-heading {
+	padding: 10px 0;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.info-span {
+	font-family: Spectral SC;
+}
+
+.links {
+	font-size: large;
+	font-family: Spectral SC;
+	text-decoration: none;
+	color: black;
+	transition: all 0.5s ease-out;
+}
+
+.links:hover {
+	transform: scale(1.07);
+	transition: all 0.4s ease-out;
+}
+
+.space {
+	padding: 10px 0px;
+}
+
+.rma {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 2px;
+}
+
+.skill-set {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.skill-font {
+	font-family: 'Fredericka the Great', cursive;
+}
+
+.bottom-right {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 700px;
+	width: 33%;
+}
