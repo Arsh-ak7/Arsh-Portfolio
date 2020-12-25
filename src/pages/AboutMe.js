@@ -1,9 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../css/aboutMe.css';
 import ArshImg from '../images/Arsh2.jpeg';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 
 export default function AboutMe() {
+	const [scrolled, setScrolled] = useState(false);
+	const handleScroll = () => {
+		const position = window.pageYOffset;
+		if (position > 1156) {
+			setScrolled(true);
+		} else {
+			setScrolled(false);
+		}
+	};
+	useEffect(() => {
+		window.addEventListener('scroll', handleScroll, { passive: true });
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
 	return (
 		<>
 			<div className='aboutMe' id='aboutMe'>
@@ -68,7 +84,11 @@ export default function AboutMe() {
 						<span className='skill-font'>C</span>
 						<span className='skill-font'>HTML</span>
 						<span className='skill-font'>CSS</span>
-						<span className='skill-font bottom-right'>Scroll &gt;</span>
+						<span
+							className={`${scrolled ? 'scrolled' : 'skill-font bottom-right'}`}
+						>
+							Scroll &gt;
+						</span>
 					</div>
 				</div>
 			</div>

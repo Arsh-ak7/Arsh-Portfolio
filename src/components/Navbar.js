@@ -20,7 +20,7 @@ export default function Navbar() {
 		if (position > 1357) {
 			setActive('projects');
 		}
-		if (position > 2141) {
+		if (position > 2241) {
 			setActive('contactMe');
 		}
 	};

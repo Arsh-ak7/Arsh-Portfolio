@@ -10,7 +10,7 @@ export default function ContactMe() {
 	const year = new Date().getFullYear();
 
 	return (
-		<div className='contactMe'>
+		<div className='contactMe' id='contactMe'>
 			<div className='contact-desc'>
 				<span className='contact-heading'>CONTACT</span>
 				<div className='contact-info'>
