@@ -9,14 +9,27 @@
 .banner {
 	margin: auto auto;
 	width: 60%;
-	height: 40%;
+	height: 10%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .banner-head {
-	font-family: 'Cinzel', serif;
+	font-family: "Cinzel", serif;
+}
+
+.internship {
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.internship-head {
+	font-family: "Cinzel", serif;
+	font-size: 24px;
 }
 
 .row {
@@ -45,7 +58,7 @@
 }
 
 .subheading {
-	font-family: 'Fredericka the Great', cursive;
+	font-family: "Fredericka the Great", cursive;
 }
 
 .image-containers {
@@ -55,7 +68,7 @@
 }
 
 .project-desc {
-	font-family: 'Cormorant Garamond', serif;
+	font-family: "Cormorant Garamond", serif;
 	text-align: center;
 	padding: 10px;
 }
