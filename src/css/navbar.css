@@ -20,7 +20,7 @@
 }
 
 .active-nav {
-	font-family: 'Cormorant Garamond', serif;
+	font-family: "Cormorant Garamond", serif;
 	transform: scale(1.17);
 }
 
@@ -28,7 +28,7 @@
 	font-size: 24px;
 	font-weight: 500;
 	color: rgb(52, 56, 51);
-	font-family: 'Cormorant Garamond', serif;
+	font-family: "Cormorant Garamond", serif;
 	display: flex;
 	justify-content: space-between;
 	text-decoration: none;
@@ -63,7 +63,7 @@
 .logo {
 	padding: 0px 5px 0px 20px;
 
-	font-family: 'Lobster Two', cursive;
+	font-family: "Lobster Two", cursive;
 }
 
 .scrolling {
@@ -90,5 +90,12 @@
 @media (max-width: 768px) {
 	.nav-button-group {
 		display: none;
+	}
+	.nav-navbar {
+		justify-content: center;
+		padding: 20px 0;
+	}
+	.avatar-div {
+		padding-right: 0;
 	}
 }
