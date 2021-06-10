@@ -35,12 +35,12 @@
 }
 
 .name-heading {
-	font-family: 'Cinzel', serif;
+	font-family: "Cinzel", serif;
 }
 
 .small-desc {
 	font-size: large;
-	font-family: 'Cormorant Garamond', serif;
+	font-family: "Cormorant Garamond", serif;
 	width: 80%;
 	display: flex;
 	flex-direction: column;
@@ -67,13 +67,13 @@
 }
 
 .edu-name-heading {
-	font-family: 'Cinzel', serif;
+	font-family: "Cinzel", serif;
 	padding-bottom: 10px;
 }
 
 .info-heading {
 	padding: 10px 0;
-	font-family: 'Cormorant Garamond', serif;
+	font-family: "Cormorant Garamond", serif;
 }
 
 .info-span {
@@ -112,7 +112,7 @@
 	align-items: center;
 }
 .skill-font {
-	font-family: 'Fredericka the Great', cursive;
+	font-family: "Fredericka the Great", cursive;
 	transition: all 0.4s ease-in;
 }
 
@@ -134,4 +134,36 @@
 	transition: all 0.4s ease-in-out;
 	transform: scale(0.75);
 	opacity: 0;
+}
+
+@media (max-width: 768px) {
+	.aboutMe {
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		padding-top: 10px;
+		height: 100%;
+	}
+
+	.desc {
+		width: 100%;
+	}
+
+	.hero-image {
+		height: 250px;
+	}
+	.quotes {
+		margin-top: -20px;
+	}
+
+	.edu {
+		width: 100%;
+	}
+	.edu-name-heading {
+		padding-top: 20px;
+		font-size: 22px;
+	}
+	.info-heading {
+		font-size: 20px;
+	}
 }

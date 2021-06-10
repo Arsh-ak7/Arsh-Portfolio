@@ -103,4 +103,7 @@
 		width: 100%;
 		justify-content: center;
 	}
+	.links {
+		text-align: center;
+	}
 }
