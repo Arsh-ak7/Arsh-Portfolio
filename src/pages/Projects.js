@@ -6,7 +6,7 @@ import YoutubeImage from "../images/youtube.jpg";
 import GalleryImage from "../images/gallery.jpg";
 import Media from "../images/mm.png";
 import WeatherImage from "../images/weather.jpg";
-import MessmanagementImage from "../images/messmanagement.png";
+//import MessmanagementImage from "../images/messmanagement.png";
 
 export default function Projects() {
 	return (

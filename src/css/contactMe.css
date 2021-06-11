@@ -82,7 +82,29 @@
 }
 
 @media (max-width: 768px) {
+	.contactMe {
+		height: 100%;
+	}
 	.contact-desc {
 		text-align: center;
+		position: relative;
+		margin-top: 4%;
+		padding-bottom: 4%;
+	}
+
+	.contact-info {
+		padding: 3.14% 0;
+	}
+
+	.contact-heading {
+		font-size: 24px;
+	}
+
+	.contact-heads {
+		font-size: 20px;
+	}
+
+	.info-details {
+		font-size: 20px;
 	}
 }
