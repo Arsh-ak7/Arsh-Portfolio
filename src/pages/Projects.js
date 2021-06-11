@@ -24,7 +24,7 @@ export default function Projects() {
 			</div>
 			<div className='row'>
 				<div className='row-posters'>
-					<div className='image-containers'>
+					{/* <div className='image-containers'>
 						<a
 							href='https://secret-coast-92182.herokuapp.com/'
 							target='_blank'
@@ -38,6 +38,23 @@ export default function Projects() {
 						<span className='subheading'>MESS MANAGEMENT APP</span>
 						<p className='project-desc'>
 							Created the backend of the System using Node and GraphQL
+						</p>
+					</div> */}
+					<div className='image-containers'>
+						<a
+							href='https://arsh-gallery.netlify.app/'
+							target='_blank'
+							rel='noreferrer'>
+							<img
+								src={GalleryImage}
+								alt='img'
+								className='image-tile gallery'
+							/>
+						</a>
+						<span className='subheading'>GALLERY APP</span>
+						<p className='project-desc'>
+							An InfiniteScroll Gallery using ReactJS and Unsplash API with
+							Firebase based authentication and Tensorflow image recognition
 						</p>
 					</div>
 					<div className='image-containers'>
@@ -78,23 +95,6 @@ export default function Projects() {
 						<p className='project-desc'>
 							Made the front-end using ReactJS and Semantic-UI, Did the backend
 							using Node and GraphQL
-						</p>
-					</div>
-					<div className='image-containers'>
-						<a
-							href='https://arsh-gallery.netlify.app/'
-							target='_blank'
-							rel='noreferrer'>
-							<img
-								src={GalleryImage}
-								alt='img'
-								className='image-tile gallery'
-							/>
-						</a>
-						<span className='subheading'>GALLERY APP</span>
-						<p className='project-desc'>
-							An InfiniteScroll Gallery using ReactJS and Unsplash API with
-							Firebase based authentication and Tensorflow image recognition
 						</p>
 					</div>
 					<div className='image-containers'>

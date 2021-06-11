@@ -166,4 +166,8 @@
 	.info-heading {
 		font-size: 20px;
 	}
+
+	.bottom-right {
+		display: none;
+	}
 }

@@ -21,7 +21,7 @@
 }
 
 .contact-heading {
-	font-family: 'Cinzel', serif;
+	font-family: "Cinzel", serif;
 	font-size: 1.6rem;
 }
 
@@ -31,12 +31,12 @@
 }
 
 .contact-heads {
-	font-family: 'Fredericka the Great', cursive;
+	font-family: "Fredericka the Great", cursive;
 	font-size: 1.4rem;
 }
 
 .info-details {
-	font-family: 'Cormorant Garamond', serif;
+	font-family: "Cormorant Garamond", serif;
 	font-size: 1.4rem;
 	text-decoration: none;
 	color: black;
@@ -59,7 +59,7 @@
 	width: 100%;
 	align-items: center;
 	color: white;
-	font-family: 'Cormorant Garamond', serif;
+	font-family: "Cormorant Garamond", serif;
 }
 
 .footer-desc-info {
@@ -79,4 +79,10 @@
 	padding: 4px;
 	color: white;
 	display: flex;
+}
+
+@media (max-width: 768px) {
+	.contact-desc {
+		text-align: center;
+	}
 }
