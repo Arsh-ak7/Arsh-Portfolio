@@ -4,9 +4,9 @@ import NetflixImage from "../images/Netflix.jpg";
 import AirbnbImage from "../images/airbnb.png";
 import YoutubeImage from "../images/youtube.jpg";
 import GalleryImage from "../images/gallery.jpg";
+import TravelLog from "../images/travel-log.png";
 import Media from "../images/mm.png";
 import WeatherImage from "../images/weather.jpg";
-//import MessmanagementImage from "../images/messmanagement.png";
 
 export default function Projects() {
 	return (
@@ -24,22 +24,36 @@ export default function Projects() {
 			</div>
 			<div className='row'>
 				<div className='row-posters'>
-					{/* <div className='image-containers'>
+					<div className='image-containers'>
 						<a
-							href='https://secret-coast-92182.herokuapp.com/'
+							href='https://github.com/Arsh-ak7/travel-map'
+							target='_blank'
+							rel='noreferrer'>
+							<img src={TravelLog} alt='img' className='image-tile gallery' />
+						</a>
+						<span className='subheading'>TRAVEL MAP</span>
+						<p className='project-desc'>
+							A travel map where users can places they visit and also give
+							ratings and write reviews about it.
+						</p>
+					</div>
+					<div className='image-containers'>
+						<a
+							href='https://netflix-clone-auth-a9cb9.web.app/'
 							target='_blank'
 							rel='noreferrer'>
 							<img
-								src={MessmanagementImage}
+								src={NetflixImage}
 								alt='img'
-								className='image-tile mess'
+								className='image-tile netflix'
 							/>
 						</a>
-						<span className='subheading'>MESS MANAGEMENT APP</span>
+						<span className='subheading'>NETFLIX CLONE</span>
 						<p className='project-desc'>
-							Created the backend of the System using Node and GraphQL
+							Cloned the frontend using ReactJs, backend is based on GraphQL and
+							I have integrated Razorpay API for payments
 						</p>
-					</div> */}
+					</div>
 					<div className='image-containers'>
 						<a
 							href='https://arsh-gallery.netlify.app/'
@@ -55,23 +69,6 @@ export default function Projects() {
 						<p className='project-desc'>
 							An InfiniteScroll Gallery using ReactJS and Unsplash API with
 							Firebase based authentication and Tensorflow image recognition
-						</p>
-					</div>
-					<div className='image-containers'>
-						<a
-							href='https://netflix-clone-d3d95.web.app/'
-							target='_blank'
-							rel='noreferrer'>
-							<img
-								src={NetflixImage}
-								alt='img'
-								className='image-tile netflix'
-							/>
-						</a>
-						<span className='subheading'>NETFLIX CLONE</span>
-						<p className='project-desc'>
-							Cloned the front-end using ReactJS and added Firbase based
-							authentication
 						</p>
 					</div>
 					<div className='image-containers'>
