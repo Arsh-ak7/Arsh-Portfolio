@@ -1,10 +1,10 @@
-import React from 'react';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import '../css/contactMe.css';
+import React from "react";
+import FavoriteIcon from "@material-ui/icons/Favorite";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import "../css/contactMe.css";
 
 export default function ContactMe() {
 	const year = new Date().getFullYear();
@@ -22,16 +22,25 @@ export default function ContactMe() {
 					</p>
 				</div>
 				<div className='contact-info'>
-					<p>
-						<span className='contact-heads'>Phone: </span>{' '}
-						<a href='tel://7463879087' className='info-details'>
+					<p style={{ display: "flex", alignItems: "center" }}>
+						<span className='contact-heads' style={{ display: "flex" }}>
+							Phone:{" "}
+						</span>{" "}
+						<a
+							href='tel://7463879087'
+							className='info-details'
+							style={{
+								paddingLeft: "5px",
+								paddingBottom: "5px",
+								display: "flex",
+							}}>
 							+91 7463879087
 						</a>
 					</p>
 				</div>
 				<div className='contact-info'>
 					<p>
-						<span className='contact-heads'>Email: </span>{' '}
+						<span className='contact-heads'>Email: </span>{" "}
 						<a href='mailto:arshkr07@gmail.com' className='info-details'>
 							arshkr07@gmail.com
 						</a>
@@ -39,14 +48,25 @@ export default function ContactMe() {
 				</div>
 				<div className='contact-info'>
 					<p>
-						<span className='contact-heads'>Website: </span>{' '}
+						<span className='contact-heads'>Website: </span>{" "}
 						<a
 							href='https://arsh-website.web.app/'
 							target='_blank'
 							rel='noreferrer'
-							className='info-details'
-						>
+							className='info-details'>
 							https://arsh-website.web.app/
+						</a>
+					</p>
+				</div>
+				<div className='contact-info'>
+					<p>
+						<span className='contact-heads'>Github: </span>{" "}
+						<a
+							href='https://github.com/Arsh-ak7'
+							target='_blank'
+							rel='noreferrer'
+							className='info-details'>
+							https://github.com/Arsh-ak7
 						</a>
 					</p>
 				</div>
@@ -55,16 +75,16 @@ export default function ContactMe() {
 				<div className='footer-desc'>
 					<span className='footer-desc-info'>
 						Copyright &copy; {year} <br />
-					</span>{' '}
+					</span>{" "}
 					<span className='footer-desc-info'>
 						All Rights Reserved <br />
 					</span>
 					<span className='footer-desc-info'>
-						Made with{' '}
+						Made with{" "}
 						<FavoriteIcon
 							fontSize='small'
-							style={{ paddingLeft: '3px', paddingRight: '3px' }}
-						/>{' '}
+							style={{ paddingLeft: "3px", paddingRight: "3px" }}
+						/>{" "}
 						by Arsh
 					</span>
 					<div className='icon-group'>
@@ -72,36 +92,32 @@ export default function ContactMe() {
 							<a
 								href='https://github.com/Arsh-ak7'
 								target='_blank'
-								rel='noreferrer'
-							>
-								<GitHubIcon style={{ color: 'white' }} />
+								rel='noreferrer'>
+								<GitHubIcon style={{ color: "white" }} />
 							</a>
 						</span>
 						<span className='icons'>
 							<a
 								href='https://www.linkedin.com/in/arshkumar'
 								target='_blank'
-								rel='noreferrer'
-							>
-								<LinkedInIcon style={{ color: 'white' }} />
+								rel='noreferrer'>
+								<LinkedInIcon style={{ color: "white" }} />
 							</a>
 						</span>
 						<span className='icons'>
 							<a
 								href='https://www.instagram.com/arsh_ak7/?hl=en'
 								target='_blank'
-								rel='noreferrer'
-							>
-								<InstagramIcon style={{ color: 'white' }} />
+								rel='noreferrer'>
+								<InstagramIcon style={{ color: "white" }} />
 							</a>
 						</span>
 						<span className='icons'>
 							<a
 								href='https://www.facebook.com/arsh.kumar.ak7/'
 								target='_blank'
-								rel='noreferrer'
-							>
-								<FacebookIcon style={{ color: 'white' }} />
+								rel='noreferrer'>
+								<FacebookIcon style={{ color: "white" }} />
 							</a>
 						</span>
 					</div>
