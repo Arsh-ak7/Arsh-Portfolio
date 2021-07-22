@@ -26,15 +26,16 @@ export default function Projects() {
 				<div className='row-posters'>
 					<div className='image-containers'>
 						<a
-							href='https://github.com/Arsh-ak7/travel-map'
+							href='https://travel-log-951f7.web.app/'
 							target='_blank'
 							rel='noreferrer'>
 							<img src={TravelLog} alt='img' className='image-tile gallery' />
 						</a>
 						<span className='subheading'>TRAVEL MAP</span>
 						<p className='project-desc'>
-							A travel map where users can places they visit and also give
-							ratings and write reviews about it.
+							A travel map where users can pin places they visit, write and read
+							reviews. <br /> They can also try our random destination suggester
+							if too confused on where to visit next!
 						</p>
 					</div>
 					<div className='image-containers'>
