@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import '../css/aboutMe.css';
-import ArshImg from '../images/Arsh2.jpeg';
-import FavoriteIcon from '@material-ui/icons/Favorite';
+import React, { useState, useEffect } from "react";
+import "../css/aboutMe.css";
+import ArshImg from "../images/Arsh2.jpeg";
+import FavoriteIcon from "@material-ui/icons/Favorite";
 
 export default function AboutMe() {
 	const [scrolled, setScrolled] = useState(false);
@@ -14,10 +14,10 @@ export default function AboutMe() {
 		}
 	};
 	useEffect(() => {
-		window.addEventListener('scroll', handleScroll, { passive: true });
+		window.addEventListener("scroll", handleScroll, { passive: true });
 
 		return () => {
-			window.removeEventListener('scroll', handleScroll);
+			window.removeEventListener("scroll", handleScroll);
 		};
 	}, []);
 	return (
@@ -44,8 +44,8 @@ export default function AboutMe() {
 						</span>
 						<span className='skill-font quote'>Qui Vivra Verra!</span>
 						<span className='skill-font rma'>
-							Real Madrid{' '}
-							<FavoriteIcon fontSize='small' style={{ paddingLeft: '3px' }} />
+							Real Madrid{" "}
+							<FavoriteIcon fontSize='small' style={{ paddingLeft: "3px" }} />
 						</span>
 					</div>
 				</div>
@@ -56,8 +56,7 @@ export default function AboutMe() {
 						className='links'
 						href='https://www.iiitg.ac.in'
 						target='_blank'
-						rel='noreferrer'
-					>
+						rel='noreferrer'>
 						Indian Institute of Information Technology, Guwahati
 					</a>
 					<span className='info-span'>Graduating in 2023</span>
@@ -66,27 +65,26 @@ export default function AboutMe() {
 						className='links'
 						href='https://www.dpspatna.com'
 						target='_blank'
-						rel='noreferrer'
-					>
+						rel='noreferrer'>
 						Delhi Public School, Patna
 					</a>
 					<span className='info-span'>Class of '18</span>
 					<span className='space' />
 					<h2 className='info-heading'>SKILLS</h2>
 					<div className='skill-set'>
-						<span className='skill-font'>MONGODB</span>
 						<span className='skill-font'>REACTJS</span>
 						<span className='skill-font'>GRAPHQL</span>
 						<span className='skill-font'>NODEJS</span>
+						<span className='skill-font'>MONGODB</span>
 						<span className='skill-font'>JAVA</span>
-						<span className='skill-font'>C++</span>
-						<span className='skill-font'>SQL</span>
-						<span className='skill-font'>C</span>
+						<span className='skill-font'>C/C++</span>
+						<span className='skill-font'>MySQL</span>
 						<span className='skill-font'>HTML</span>
 						<span className='skill-font'>CSS</span>
 						<span
-							className={`${scrolled ? 'scrolled' : 'skill-font bottom-right'}`}
-						>
+							className={`${
+								scrolled ? "scrolled" : "skill-font bottom-right"
+							}`}>
 							Scroll &gt;
 						</span>
 					</div>
